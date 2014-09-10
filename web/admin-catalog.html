@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-    <title>Супер Шины | Каталог шин Алматы</title>
+        <title>Супер Шины | Каталог шин Алматы</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-	
-	<link rel="shortcut icon" href="images/favicon.png">
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet">
 
-    <!-- Add custom CSS here -->
-    <link href="css/modern-business.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-</head>
+        <link rel="shortcut icon" href="images/favicon.png">
 
-<body>
+        <!-- Add custom CSS here -->
+        <link href="css/modern-business.css" rel="stylesheet">
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    </head>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <body>
+
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -31,7 +31,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="admin-index.html">
                         <img src="images/logo.png" style="height: 36px; width: 36px; margin-top: -8px;"></img>
                         <span style="font-size: x-large; color: #FF4D4D;">СуперШины</span>
                     </a>
@@ -44,7 +44,7 @@
                                 +7 701 124 4791
                             </a>
                         </li>
-                        <li><a href="index.html">Каталог</a>
+                        <li><a href="admin-index.html">Каталог</a>
                         </li>
                         <li><a href="blog-home-2.html">Блог</a>
                         </li>
@@ -65,73 +65,212 @@
             <!-- /.container -->
         </nav>
 
-    <div class="container">
+        <div class="container">
 
-        <div class="row">
-
-            <div class="col-lg-12">
-                <h3 class="page-header">Уголок админа
-                    <small>Я, %USERNAME% (<a href="index.html">Выход</a>)</small>
-                </h3>
-                <ol class="breadcrumb">
-                    <li><a href="index.html">Домашняя страница</a>
-                    </li>
-                    <li class="active">Уголок админа</li>
-                </ol>
-            </div>
-
-        </div>
-
-        <!-- Content Row -->
-        <div class="row">
-            <!-- Sidebar Column -->
-            <div class="col-md-3">
-                <div class="list-group">
-                    <a href="admin-accounts.html" class="list-group-item">Аккаунты</a>
-                    <a href="admin-catalog.html" class="list-group-item active">Каталог</a>
-                    <a href="#" class="list-group-item">Предложения от покупателей</a>
-                    <a href="#" class="list-group-item">Производители</a>
-                    <a href="#" class="list-group-item">FAQ</a>
-                    <a href="#" class="list-group-item">Блог</a>
-                </div>
-            </div>
-            <!-- Content Column -->
-            <div class="col-md-9">
-                <h2>Управление каталогом</h2>
-                <div>
-                    <form role="form">
-                        <div class="row">
-                            
-                      </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <!-- /.row -->
-
-    </div>
-    <!-- /.container -->
-
-    <div class="container">
-
-        <hr>
-
-        <footer>
             <div class="row">
+
                 <div class="col-lg-12">
-                    <p>SuperShiny.kz 2014</p>
+                    <h3 class="page-header">Уголок админа
+                        <small>Я, %USERNAME% (<a href="index.html">Выход</a>)</small>
+                    </h3>
+                    <ol class="breadcrumb">
+                        <li><a href="index.html">Домашняя страница</a>
+                        </li>
+                        <li class="active">Уголок админа</li>
+                    </ol>
+                </div>
+
+            </div>
+
+            <!-- Content Row -->
+            <div class="row">
+                <!-- Sidebar Column -->
+                <div class="col-md-3">
+                    <div class="list-group">
+                        <a href="admin-accounts.html" class="list-group-item">Аккаунты</a>
+                        <a href="admin-catalog.html" class="list-group-item active">Каталог</a>
+                        <a href="#" class="list-group-item">Предложения от покупателей</a>
+                        <a href="#" class="list-group-item">Производители</a>
+                        <a href="#" class="list-group-item">FAQ</a>
+                        <a href="#" class="list-group-item">Блог</a>
+                    </div>
+                </div>
+                <!-- Content Column -->
+                <div class="col-md-9 col-sm-12 col-lg-9" style="font-size: larger;">
+                    Создать новую позицию или...&nbsp;&nbsp;&nbsp;
+                    <a href="admin-index.html" class="btn btn-success">
+                        Редактировать каталог <span class="glyphicon glyphicon-circle-arrow-right"/>
+                    </a>
+                    <hr/>
+                </div>
+                <div class="col-md-9 col-sm-12 col-lg-9">
+                    <div>
+                        <div class="alert alert-danger" role="alert">
+                            Ошибка! Длинный длинный текст следует здесь.....................................
+                        </div>
+                        <div class="alert alert-success" role="alert">
+                            Выполнено! Длинный длинный текст следует здесь.....................................
+                        </div>
+                        <div class="alert alert-info" role="alert">
+                            Информация. Длинный длинный текст следует здесь.....................................
+                        </div>
+                        <div class="alert alert-warning" role="alert">
+                            Предупреждение! Длинный длинный текст следует здесь.....................................
+                        </div>
+                    </div>
+                    <div>
+                        <form role="form">
+                            <div class="row">
+                                <div class="form-group col-lg-12 col-md-12">
+                                    <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-refresh"/> Очистить</button>
+                                    <button type="submit" class="btn btn-danger"><span class="glyphicon glyphicon-remove"/> Удалить</button>
+                                    <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-floppy-saved"/> Сохранить</button>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div class="row">
+                                <div class="form-group col-lg-6 col-md-6">
+                                    <label for="input2">Бренд</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group col-lg-6 col-md-6">
+                                    <label for="input2">Тип шины</label>
+                                    <select class="form-control">
+                                        <option>Фрикционная</option>
+                                        <option>Шипованная</option>
+                                    </select>
+                                </div>
+                                <div class="clearfix"></div>
+
+                                <div class="form-group col-lg-6 col-md-6">
+                                    <label for="input2">Модель</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group col-lg-6 col-md-6">
+                                    <label for="input2">Сезонность</label>
+                                    <select class="form-control">
+                                        <option>Зима</option>
+                                        <option>Лето</option>
+                                        <option>Ни то, ни сё</option>
+                                    </select>
+                                </div>
+                                <div class="clearfix"></div>
+
+                                <div class="form-group col-lg-6 col-md-6">
+                                    <label for="input2">Размер</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group col-lg-6 col-md-6">
+                                    <label for="input2">Цена</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="clearfix"></div>
+
+                                <div class="form-group col-lg-6 col-md-6">
+                                    <label for="input2">Cтрана</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group col-lg-6 col-md-6">
+                                    <label for="input2">Количество</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <hr/>
+                            <h4>Загрузить изображения</h4>
+                            <div class="row">
+                                <div class="form-group col-lg-6 col-md-8">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-default" type="button">Выбрать файлы</button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6 col-md-4">
+                                    <div class="thumbnail">
+                                        <img src="images/circle1.png" style="height: 300px; width: 300px;" alt="...">
+                                        <div class="caption">
+                                            <p class="btn-group">
+                                                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-check"/> По умолчанию</button>
+                                                <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-remove"/></button>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4">
+                                    <div class="thumbnail">
+                                        <img src="images/circle1.png" style="height: 300px; width: 300px;" alt="...">
+                                        <div class="caption">
+                                            <p class="btn-group">
+                                                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-check"/> По умолчанию</button>
+                                                <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-remove"/></button>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4">
+                                    <div class="thumbnail">
+                                        <img src="images/circle1.png" style="height: 300px; width: 300px;" alt="...">
+                                        <div class="caption">
+                                            <p class="btn-group">
+                                                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-check"/> По умолчанию</button>
+                                                <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-remove"/></button>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-4">
+                                    <div class="thumbnail">
+                                        <img src="images/circle1.png" style="height: 300px; width: 300px;" alt="...">
+                                        <div class="caption">
+                                            <p class="btn-group">
+                                                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-check"/> По умолчанию</button>
+                                                <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-remove"/></button>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div class="row">
+                                <div class="form-group col-lg-12 col-md-12">
+                                    <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-refresh"/> Очистить</button>
+                                    <button type="submit" class="btn btn-danger"><span class="glyphicon glyphicon-remove"/> Удалить</button>
+                                    <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-floppy-saved"/> Сохранить</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </footer>
+            <!-- /.row -->
 
-    </div>
-    <!-- /.container -->
+        </div>
+        <!-- /.container -->
 
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/modern-business.js"></script>
+        <div class="container">
 
-</body>
+            <hr>
+
+            <footer>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>SuperShiny.kz 2014</p>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+        <!-- /.container -->
+
+        <!-- JavaScript -->
+        <script src="js/jquery-1.10.2.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/modern-business.js"></script>
+
+    </body>
 
 </html>
