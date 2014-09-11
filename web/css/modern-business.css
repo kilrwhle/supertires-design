@@ -9,153 +9,154 @@ For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap
 /* Global Styles */
 
 html, body {
-  height: 100%;
+    height: 100%;
 }
 
 body {
-	padding-top: 40px;
+    padding-top: 40px;
 }
 
 .img-home-portfolio,
 .img-customer,
 .portfolio-item {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 /******************* MINE *******************/
 .big-select {
-	width: 80px;
-	height: 24px;
+    width: 80px;
+    height: 24px;
 }
 .search-panel {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 .tire :hover {
-	/*
-	border: 1px solid black;
-	border-radius: 6px;
-	*/
-	/* box-shadow: 0 0 10px rgba(0,0,0,0.5); */
+    /*
+    border: 1px solid black;
+    border-radius: 6px;
+    */
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.5); */
 }
 /* fix for modal window shifts */
 .modal {
- overflow-y: auto;
+    overflow-y: auto;
 }
 
 .modal-open {
- overflow: auto;
+    overflow: auto;
 }
 /* overriding modal window size */
 .modal-dialog {
-  width: 800px;
-  height: 640px;
+    width: 800px;
+    height: 640px;
 }
 /********************************************/
 
+
 .tab-pane {
-  margin-top: 15px;
+    margin-top: 15px;
 }
 
 /* Page Sections */
 .section,
 .section-colored {
-  padding: 50px 0;
+    padding: 50px 0;
 }
 
 .section-colored {
-  background-color: #FFC75E;
- /* change this to change the background color of a colored section */
+    background-color: #FFC75E;
+    /* change this to change the background color of a colored section */
 }
 
 .sidebar {
-  margin-top: 40px;
+    margin-top: 40px;
 }
 
 .sidebar ul {
-  border-radius: 5px;
-  padding: 5px;
-  border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #cccccc;
 }
 
 /* Half Page Height Carousel Customization */
 .carousel {
-  height: 50%;
+    height: 50%;
 }
 
 .item,
 .active,
 .carousel-inner {
-  height: 100%;
+    height: 100%;
 }
 
 .fill {
-  width: 100%;
-  height: 100%;
-  background-position: center;
-  background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
 }
 
 /* Social Icons Styles */
 .list-social-icons {
-  margin-bottom: 45px;
+    margin-bottom: 45px;
 }
 
 .tooltip-social a {
-  text-decoration: none;
-  color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
 
 .facebook-link a:hover {
-  color: #3b5998;
+    color: #3b5998;
 }
 
 .linkedin-link a:hover {
-  color: #007fb1;
+    color: #007fb1;
 }
 
 .twitter-link a:hover {
-  color: #39a9e0;
+    color: #39a9e0;
 }
 
 .google-plus-link a:hover {
-  color: #d14836;
+    color: #d14836;
 }
 
 /* Service Page Styles */
 .service-icon {
-  font-size: 50px;
+    font-size: 50px;
 }
 
 /* 404 Page Styles */
 .error-404 {
-  font-size: 8em;
+    font-size: 8em;
 }
 
 /* Pricing Page Styles */
 .price {
-  font-size: 4em;
+    font-size: 4em;
 }
 
 .price-cents {
-  vertical-align: super;
-  font-size: 50%;
+    vertical-align: super;
+    font-size: 50%;
 }
 
 .price-month {
-  font-size: 35%;
-  font-style: italic;
+    font-size: 35%;
+    font-style: italic;
 }
 
 /* Footer Styles */
 footer {
-  margin: 50px 0;
+    margin: 50px 0;
 }
 
 /* Responsive Styles */
 @media (max-width: 767px) {
 
-  .carousel {
-    height: 70%;
- /* increases the carousel height so it looks good on phones */
-  }
+    .carousel {
+        height: 70%;
+        /* increases the carousel height so it looks good on phones */
+    }
 }
